@@ -1,0 +1,47 @@
+[debug] [2021-09-19T01:59:07.324Z] ----------------------------------------------------------------------
+[debug] [2021-09-19T01:59:07.327Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Rob\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-19T01:59:07.327Z] CLI Version:   9.11.0
+[debug] [2021-09-19T01:59:07.327Z] Platform:      win32
+[debug] [2021-09-19T01:59:07.327Z] Node Version:  v14.16.0
+[debug] [2021-09-19T01:59:07.329Z] Time:          Sun Sep 19 2021 11:59:07 GMT+1000 (Australian Eastern Standard Time)
+[debug] [2021-09-19T01:59:07.329Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-19T01:59:07.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-19T01:59:07.339Z] > authorizing via signed-in user (robert.szczurko92@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Rob\ReactApps\slack-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using slack-clone-1d566. 
+[debug] [2021-09-19T01:59:17.185Z] > refreshing access token with scopes: []
+[debug] [2021-09-19T01:59:17.186Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-19T01:59:17.461Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 19 Sep 2021 01:59:17 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-19T01:59:17.477Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/slack-clone-1d566 [none]
+[debug] [2021-09-19T01:59:17.990Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/slack-clone-1d566 200
+[debug] [2021-09-19T01:59:17.990Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/slack-clone-1d566 {"projectId":"slack-clone-1d566","projectNumber":"920252877894","displayName":"slack-clone","name":"projects/slack-clone-1d566","resources":{"hostingSite":"slack-clone-1d566","storageBucket":"slack-clone-1d566.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
